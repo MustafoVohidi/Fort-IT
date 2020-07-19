@@ -1,38 +1,91 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.align-self-center{
+  width:85px; height:85px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.progress{
+  height: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.progress-bar{
+  width: 40%;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-danger, .progress-bar{
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-warning, .progress-bar{
+  width: 60%;
 }
+
+.bg-info, .progress-bar{
+  width: 20%;
+}
+
+
+.bg-success, .progress-bar{
+  width: 40%;
+}
+.trafficChart{
+  height:200px;
+}
+
+.chart-wrapper {
+  height:70px;
+}
+
+.card-body{
+
+  height: 170px;
+}
+.header-right{
+  background-color:#acd1f0;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.active{
+  text-align: left;
+}
+
+.footer-panel{
+  display: grid;  
+  grid-template-rows:  395px ; /* 3 строки */
+  grid-template-columns: 100% 50%; /* 3 столбца */
+}
+
+.footer-panel1{
+  display: grid;
+  grid-column: 1/2; 
+  grid-row: 1/2;
+}
+
+.footer-panel2{
+  display: grid;
+  grid-column: 2/3; 
+  grid-row: 1/2;
+}
+
+
+.Button1{
+border-radius: 3px;
+font-size: 20px;
+}
+
+
+
+
+/* .left-panel{
+  width: 10%;
+} */
+
+ /* .right-panel{
+  width: 85%;
+} */
